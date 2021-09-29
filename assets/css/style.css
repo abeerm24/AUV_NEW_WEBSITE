@@ -1569,9 +1569,19 @@ section {
 }
 
 .blog .entry .entry-img {
-  max-height: 440px;
-  margin: -30px -30px 20px -30px;
+  width: 30rem;
+  margin: 30px auto; 
+  /* margin: -30px -30px 20px -30px; */
   overflow: hidden;
+}
+
+@media only screen and (max-width: 500px){
+  .blog .entry .entry-img {
+    width: 20rem;
+    margin: 30px auto; 
+    /* margin: -30px -30px 20px -30px; */
+    overflow: hidden;
+  } 
 }
 
 .blog .entry .entry-title {
