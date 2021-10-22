@@ -414,6 +414,8 @@ h6 {
   #hero {
     text-align: center;
     padding-top: 58px;
+    background: url("../img/M6mobile-1.jpg") top center no-repeat;
+    width: 22em;
   }
   #hero h1 {
     font-size: 28px;
